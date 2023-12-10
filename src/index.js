@@ -6,4 +6,4 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-let element = <img id="Exotic leaves" className="Exotic Leaves" src="examproject/Images/Exotic_Leaves"></img>
+let element = <img id="Exotic leaves" className="Exotic Leaves" src="Images/Exotic_Leaves.jpg"></img>
