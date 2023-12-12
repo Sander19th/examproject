@@ -8,10 +8,10 @@ let element = (
 
       <div id="Homepagepilea">
       <img src="./images/Pilea_pot.png" alt=""></img>
+      </div>
       <h3>Pilea Peperomioides</h3>
       <b>Also known as the chinese money plant for it's iconic rounded leaves..</b>
-      </div>
-      
+     <div></div>
 
       <div id="Homepagemonstera"><img src="./images/Monstera_pot.png" alt=""></img></div>
       <h3>Monstera Deliciosa</h3>

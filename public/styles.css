@@ -1,3 +1,18 @@
 html, body {
-    background-color: blue;
+    background-color: white;
+}
+
+#Homepagepilea, img {
+    width: 300px;
+    height: 300px;
+}
+
+#Homepagemonstera, img {
+    width: 300px;
+    height: 300px;
+}
+
+#Homepagecocos, img {
+    width: 300px;
+    height: 300px;
 }
