@@ -1,42 +1,59 @@
 
 
 html body {
-    margin: 0;
+    margin: 0 auto;
+    position: relative;
     padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 428px;
+    max-width: 350px;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: #555;
 }
 
 .Header {
-    margin-top: 0px;
+    margin-top: 10px;
     margin-bottom: 10px;
+    color: #555;
+    display: inline-flex;
+}
+
+.profile {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 1px solid #555;
+    margin-left: 100px;
 }
 
 .Homepagepilea img {
-    width: 250px;
-    height: 250px;
+    width: 120px;
+    height: 100px;
     float: left;
     margin-right: 10px;
+    border: 1px solid #555;
+    margin-bottom: 30px;
 }
 
 .Homepagemonstera img {
-    width: 250px;
-    height: 250px;
+    width: 120px;
+    height: 100px;
     float: left;
     margin-right: 10px;
+    border: 1px solid #555;
+    margin-bottom: 30px;
 }
 
 .Homepagecocos img {
-    width: 250px;
-    height: 250px;
+    width: 120px;
+    height: 100px;
     float: left;
     margin-right: 10px;
+    border: 1px solid #555;
+    margin-bottom: 30px;
 }
 
