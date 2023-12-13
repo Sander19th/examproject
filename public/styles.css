@@ -1,18 +1,26 @@
 html, body {
+    height: 100%;
     background-color: white;
 }
 
-#Homepagepilea, img {
+.Homepagepilea img {
     width: 300px;
     height: 300px;
 }
 
-#Homepagemonstera, img {
+.Homepagemonstera img {
+    margin-top: 10px;
     width: 300px;
     height: 300px;
 }
 
-#Homepagecocos, img {
+.Homepagecocos img {
+    margin-top: 10px;
     width: 300px;
     height: 300px;
+}
+
+.Homepageimage img{
+    width: 500px;
+    height: 500px;
 }
