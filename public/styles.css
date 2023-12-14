@@ -10,6 +10,7 @@ html body {
     max-width: 350px;
 }
 
+
 a {
     text-decoration: none;
     color: #949191;
@@ -44,6 +45,10 @@ h3 {
     margin-left: 100px;
 }
 
+.BackgroundContainer img {
+    width: 350px;
+}
+
 .Homepagepilea img {
     width: 120px;
     height: 100px;
@@ -56,17 +61,24 @@ h3 {
 
 .Pileapagepilea img {
     width: 120px;
-    height: 100px;
+    height: 120px;
     float: left;
     margin-right: 10px;
-    border: 1px solid #949191;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .PileaBackgroundContainer img {
     width: 350px;
+    margin-top: -500px;
+    margin-bottom: 0;
     position: absolute;
-    z-index: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.Pileapagepilea p{
+    position: relative;
+    z-index: 1;
 }
 
 .Homepagemonstera img {
@@ -79,6 +91,24 @@ h3 {
 
 }
 
+.Monsterapagemonstera img {
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+.MonsteraBackgroundContainer img {
+    width: 350px;
+    margin-top: -300px;
+    margin-bottom: 0;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+}
+
 .Homepagecocos img {
     width: 120px;
     height: 100px;
@@ -87,5 +117,22 @@ h3 {
     border: 1px solid #949191;
     margin-bottom: 30px;
 
+}
+
+.Cocospagecocos img {
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.CocosBackgroundContainer img {
+    width: 350px;
+    margin-top: -300px;
+    margin-bottom: 0;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
 }
 
