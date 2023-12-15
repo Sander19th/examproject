@@ -26,13 +26,25 @@ a {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.hamburger {
+    display: block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    appearance: none;
+    background: none;
+    outline: none;
+    border: none;
+}
+
 /* CSS for search bar */
 .search-wrapper input {
     width: 220px;
     height: 30px;
     border: 1px solid #949191;
     margin-bottom: 15px;
-    
+    border-color: #949191;
+    outline: none;
 }
 
 h3 {
@@ -53,7 +65,7 @@ h3 {
 .BackgroundContainer img {
     width: 350px;
     position: fixed;
-    bottom: 250px;
+    bottom: 120px;
     z-index: -1;
 }
 
