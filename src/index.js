@@ -16,22 +16,17 @@ ReactDOM.render(
 */
 
   document.getElementById('search').addEventListener('input', function() {
-   
     var searchText = this.value.toLowerCase();
-
-   
+    
     var plantItems = document.querySelectorAll('.plant');
-
-   
+    
     plantItems.forEach(function(item) {
-      
-      var plantText = item.textContent.toLowerCase();
-
-      if (plantText.includes(searchText)) {
-        
+      var plantName = item.querySelector('h3').textContent.toLowerCase();
+      if (plantName.includes(searchText)) {
         item.style.display = 'block';
       } else {
         item.style.display = 'none';
       }
+      console.log(plantName)
     });
   });

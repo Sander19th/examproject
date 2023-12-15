@@ -24,11 +24,11 @@ a {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.Searchbar {
+.search-wrapper input {
     width: 220px;
     height: 30px;
     border: 1px solid #949191;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     
 }
 
@@ -48,7 +48,7 @@ h3 {
 .BackgroundContainer img {
     width: 350px;
     position: fixed;
-    bottom: 300px;
+    bottom: 250px;
     z-index: -1;
 }
 
