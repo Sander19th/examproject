@@ -10,13 +10,15 @@ html body {
     max-width: 350px;
 }
 
-
+/* Removes decorations from links, changes text color and adds a font*/
 a {
     text-decoration: none;
     color: #949191;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+/* App title "Plantuary" */
 .Header {
     margin-top: 30px;
     color: #949191;
@@ -24,6 +26,7 @@ a {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* CSS for search bar */
 .search-wrapper input {
     width: 220px;
     height: 30px;
@@ -37,6 +40,7 @@ h3 {
     margin: 10px;
 }
 
+/* Icon for menu in top-right corner */
 .profile {
     width: 75px;
     height: 75px;
@@ -45,6 +49,7 @@ h3 {
     margin-left: 100px;
 }
 
+/* Background image on homepage */
 .BackgroundContainer img {
     width: 350px;
     position: fixed;
@@ -52,6 +57,7 @@ h3 {
     z-index: -1;
 }
 
+/* CSS for Pilea on homepage */
 .Homepagepilea img {
     width: 120px;
     height: 100px;
@@ -62,6 +68,7 @@ h3 {
 
 }
 
+/* CSS for Pilea on Pilea page */
 .Pileapagepilea img {
     width: 120px;
     height: 120px;
@@ -70,6 +77,7 @@ h3 {
     margin-bottom: 10px;
 }
 
+/* CSS for background pilea on Pilea page */
 .PileaBackgroundContainer img {
     width: 350px;
     margin-top: -500px;
@@ -79,11 +87,7 @@ h3 {
     opacity: 0.5;
 }
 
-.Pileapagepilea p{
-    position: relative;
-    z-index: 1;
-}
-
+/* CSS for Monstera on homepage */
 .Homepagemonstera img {
     width: 120px;
     height: 100px;
@@ -94,6 +98,7 @@ h3 {
 
 }
 
+/* CSS for Monstera on monstera page */
 .Monsterapagemonstera img {
     width: 120px;
     height: 120px;
@@ -102,7 +107,7 @@ h3 {
     margin-bottom: 10px;
 }
 
-
+/* CSS for background Monstera on monstera page */
 .MonsteraBackgroundContainer img {
     width: 350px;
     margin-top: -300px;
@@ -112,6 +117,7 @@ h3 {
     opacity: 0.4;
 }
 
+/* CSS for Cocos on homepage */
 .Homepagecocos img {
     width: 120px;
     height: 100px;
@@ -122,6 +128,7 @@ h3 {
 
 }
 
+/* CSS for Cocos on cocos page */
 .Cocospagecocos img {
     width: 120px;
     height: 120px;
@@ -130,6 +137,7 @@ h3 {
     margin-bottom: 10px;
 }
 
+/* CSS for background Cocos on cocos page */
 .CocosBackgroundContainer img {
     width: 350px;
     margin-top: -300px;
