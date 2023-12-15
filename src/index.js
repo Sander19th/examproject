@@ -30,3 +30,8 @@ ReactDOM.render(
       console.log(plantName)
     });
   });
+
+  const menu_button = document.querySelector('.hamburger');
+  menu_button.addEventListener('click', function() {
+    menu_button.classList.toggle('is-active');;
+  });
