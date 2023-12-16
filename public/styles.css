@@ -15,6 +15,7 @@ a {
     text-decoration: none;
     color: #949191;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 10;
 }
 
 
@@ -28,7 +29,7 @@ a {
 
 /* Hamburger-menu, position */
 .hamburger {
-    margin-left: 170px;
+    margin-left: 150px;
     position: relative;
     display: block;
     width: 35px;
@@ -60,6 +61,38 @@ a {
 
 .hamburger.is-active .bar {
     opacity: 0;
+}
+
+.mobile-nav {
+    position: fixed;
+    display: block;
+    top: 0;
+    right: 100%;
+    width: 10%;
+    margin-top: 40px;
+    min-height: 200px;
+    background-color: #fff;
+    padding-top:120px;
+    margin-right: 782px;
+    border: 1px solid #949191;
+}
+
+.mobile-nav.is-active {
+    right: 0;
+}
+
+.mobile-nav a{
+    display:block;
+    text-align: center;
+    margin: 16px;
+    padding: 12px;
+    border: 1px solid #949191;
+}
+
+.mobile-nav a:hover{
+    background-color: #9cc599;
+    transition: 0.3s;
+    color: #fff;
 }
 
 /* CSS for search bar */

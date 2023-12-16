@@ -1,0 +1,217 @@
+
+html body {
+    margin: 0 auto;
+    position: relative;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 350px;
+}
+
+/* Removes decorations from links, changes text color and adds a font*/
+a {
+    text-decoration: none;
+    color: #949191;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 10;
+}
+
+
+/* App title "Plantuary" */
+.Header {
+    margin-top: 30px;
+    color: #949191;
+    display: inline-flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Hamburger-menu, position */
+.hamburger {
+    margin-left: 150px;
+    position: relative;
+    display: block;
+    width: 35px;
+    cursor: pointer;
+
+    appearance: none;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.hamburger .bar, .hamburger:after, .hamburger:before {
+    content: '';
+    display:block;
+    width: 30px;
+    height: 5px;
+    background-color: #9cc599; 
+    margin: 4px 0px;
+    transition: 0.4s;
+}
+
+.hamburger.is-active:before{
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.hamburger.is-active:after{
+    transform: rotate(45deg) translate(-6px, -4px);
+}
+
+.hamburger.is-active .bar {
+    opacity: 0;
+}
+
+.mobile-nav {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 100%;
+    width: 10%;
+    min-height: 100vh;
+    background-color: #fff;
+    padding-top:120px;
+    margin-right: 782px;
+    border: 1px solid #949191;
+}
+
+.mobile-nav.is-active {
+    left: 0;
+}
+
+.mobile-nav a{
+    display:block;
+    text-align: center;
+    margin: 16px;
+    padding: 12px;
+    border: 1px solid #949191;
+}
+
+.mobile-nav a:hover{
+    background-color: #9cc599;
+    transition: 0.3s;
+    color: #fff;
+}
+
+/* CSS for search bar */
+.search-wrapper input {
+    width: 220px;
+    height: 30px;
+    border: 1px solid #949191;
+    margin-bottom: 15px;
+    border-color: #949191;
+    outline: none;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 10px;
+}
+
+/* Icon for menu in top-right corner */
+.profile {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 1px solid #949191;
+    margin-left: 100px;
+}
+
+/* Background image on homepage */
+.BackgroundContainer img {
+    width: 350px;
+    position: fixed;
+    bottom: 120px;
+    z-index: -1;
+}
+
+/* CSS for Pilea on homepage */
+.Homepagepilea img {
+    width: 120px;
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+    border: 1px solid #949191;
+    margin-bottom: 30px;
+
+}
+
+/* CSS for Pilea on Pilea page */
+.Pileapagepilea img {
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* CSS for background pilea on Pilea page */
+.PileaBackgroundContainer img {
+    width: 350px;
+    margin-top: -500px;
+    margin-bottom: 0;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+/* CSS for Monstera on homepage */
+.Homepagemonstera img {
+    width: 120px;
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+    border: 1px solid #949191;
+    margin-bottom: 30px;
+
+}
+
+/* CSS for Monstera on monstera page */
+.Monsterapagemonstera img {
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* CSS for background Monstera on monstera page */
+.MonsteraBackgroundContainer img {
+    width: 350px;
+    margin-top: -300px;
+    margin-bottom: 0;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+/* CSS for Cocos on homepage */
+.Homepagecocos img {
+    width: 120px;
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+    border: 1px solid #949191;
+    margin-bottom: 30px;
+
+}
+
+/* CSS for Cocos on cocos page */
+.Cocospagecocos img {
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* CSS for background Cocos on cocos page */
+.CocosBackgroundContainer img {
+    width: 350px;
+    margin-top: -300px;
+    margin-bottom: 0;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+}
+

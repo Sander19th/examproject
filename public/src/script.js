@@ -2,10 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 
-
 let element = (
   <>
-    
   </>
 )
 
@@ -39,5 +37,3 @@ ReactDOM.render(
     menu_button.classList.toggle('is-active');
     mobile_menu.classList.toggle('is-active');
   });
-
-

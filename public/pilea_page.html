@@ -3,18 +3,34 @@
 
   <head>
     <title>Plantuary</title>
-
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    
   </head>
 
   <body>
+    <nav class="mobile-nav">
+      <a href="index.html">Home</a>
+      <a href="Your_plants.html">Your plants</a>
+      <a href="#">Plant journal</a>
+      <a href="#">Settings</a>
+    </nav>
+    <div class="Header">
+      <a href="index.html"><h1>Plantuary</h1></a>
+        <!--
+      <a href=""><div class="profile"></div></a>
+        -->
+        <button class="hamburger">
+            <div class="bar"></div>
+        </button>
+    </div>  
 
-      <div class="Header">
-        <a href="index.html"><h1>Plantuary</h1></a>
-
-        <a href=""><div class="profile"></div></a>
-      </div>  
+    <div id="root"></div>
+    <script src="/src/index.js" type="text/babel"></script>
   
+    <div class="search-wrapper">
+      <label for="Search"></label>
+      <input type="Search" placeholder="Search for plant..." id="search" data-search></input>
+  </div>
 
       <div id="container1"> 
           <div class="Pileapagepilea">
